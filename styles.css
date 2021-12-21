@@ -1,6 +1,5 @@
 body{
         margin:0;
-        font-family: 'Roboto', sans-serif;
 }
 .hero{
     display:flex;
@@ -8,6 +7,8 @@ body{
     background-color:#1F2937 ;
     color:#e5e7eb;
     font-size: 18px;;
+    padding:0 100px;
+    padding-bottom:100px;
 }
 .top{
     display: flex;
@@ -16,18 +17,18 @@ body{
 }
 .t-bottom button{
     background-color: #3882f6;
-    border-radius: 10%;
-    border-color: #3882f6;
+    border-radius: 10px;
     color:#e5e7eb;
     font-weight: 900;
-    padding:5px 25px;
+    padding:7px 30px;
     font-size: 18px;
+    border:none;
 }
 
 .t-bottom div p{
-    width: 500px;
+    width: 450px;
     font-size: 18px;
-    margin-top: -20px;
+    margin-top: -25px;
 }
 .t-bottom{
     display: flex;  
@@ -37,7 +38,7 @@ body{
 .t-bottom img{
     width:600px;
     height: 250px;
-    background-color: gray;
+    background-color: rgb(95, 95, 95);
     text-align:center;
     line-height: 250px;
 }
@@ -60,7 +61,7 @@ a{
 .pics{
     display: flex;
     justify-content: center;
-    gap:30px;
+    gap:50px;
 }
 .pics img{
     border:5px solid #3882f6;
@@ -70,7 +71,7 @@ a{
     margin: 0;
 }
 .pics p{
-    width: 190px;
+    width: 150px;
 }
 .main{
     text-align: center;
@@ -80,4 +81,29 @@ h2{
     font-weight: 900;
     color:#1f2937;
     padding:10px;
+}
+.quote{
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    align-items: center;
+}
+.quote p{
+    width: 800px;
+    color:#1F2937 ;
+    font-size: 36px;
+    font-style: italic;
+    padding:0px 100px;
+    padding-top:100px;
+   
+}
+#by{
+    font-style: normal;
+   margin-left: 950px;
+   margin-top:-150px;
+   font-weight: bolder;
+   font-size: 22px;
+}    
+.main{
+    padding:100px 0;
 }
