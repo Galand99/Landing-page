@@ -1,6 +1,6 @@
 body{
         margin:0;
-
+        font-family: 'Roboto', sans-serif;
 }
 .hero{
     display:flex;
@@ -44,7 +44,7 @@ body{
 h1{
     width:400px;
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 999;
     color:#f9faf8;
 }
 a{
@@ -60,6 +60,7 @@ a{
 .pics{
     display: flex;
     justify-content: center;
+    gap:30px;
 }
 .pics img{
     border:5px solid #3882f6;
@@ -73,4 +74,10 @@ a{
 }
 .main{
     text-align: center;
+}
+h2{
+    font-size: 36px;
+    font-weight: 900;
+    color:#1f2937;
+    padding:10px;
 }
